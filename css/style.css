@@ -1,0 +1,23 @@
+:root{
+    --font-family: "Roboto", sans-serif;
+    --second-family: "Raleway", sans-serif;
+    --hover-text-color:#2196F3;  
+    --hero-bg-color: #2F303A;
+    --primary-text-color: #757575;
+    --footer-text-color:#2F303A;
+    --team-bg-color:#F5F4FA;
+    --secondary-text-color:#FFFFFF;
+}
+
+body {
+    font-family: var(--font-family);
+}
+.footer {
+  background-color: var(--footer-text-color);
+}
+.main {
+  background-color: var(--hero-bg-color);
+}
+button {
+  background-color:var(--hover-text-color);
+}
